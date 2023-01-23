@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 100px 50px 100px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 280%;
+}
+
+.head_img{
+  height: 50px;
+  width: 210px;
+}
+
+.top_img {
+  width: 100%;
+}
+
+.content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.intro_head {
+  font-family: serif;
+  font-size: 29px;
+}
+
+.intro_head h1 span {
+  font-size: 75px;
+}
+
+.intro_texts p {
+  margin: 30px 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 90px;
+  margin-bottom: 0;
+}
+
+.title div {
+  font-size: 22px;
+  letter-spacing: 44px;
+}
+
+.about {
+  padding-top: 200px;
+  padding-bottom: 370px;
+  background-image: url(../images/長方形\　1.png);
+  background-size: 100% auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.about_quest {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.about_body {
+  display: flex;
+}
+
+.about_text {
+  margin-right: 78px;
+}
+
+.about_png {
+  width: 570px;
+}
+
+.reasons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reason {
+  margin-bottom: 70px;
+  width: 600px;
+}
+
+.reason .chart {
+  text-align: center;
+}
+
+#reason1 {
+  margin-right: 40px;
+  background-image: url(../images/ヒト.png);
+  background-repeat: no-repeat;
+  background-position: 300px 0;
+}
+#reason2 {
+  background-image: url(../images/クツ.png);
+  background-repeat: no-repeat;
+  background-position: 350px 40px;
+}
+#reason3 {
+  margin-right: 40px;
+  background-image: url(../images/ミズ.png);
+  background-repeat: no-repeat;
+  background-position: 300px 0;
+}
+#reason4 {
+  background-image: url(../images/カバン.png);
+  background-repeat: no-repeat;
+  background-position: 300px 0;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+.reviews {
+  padding-top: 300px;
+  padding-bottom: 370px;
+  background-image: url(../images/長方形\　2.png);
+  background-size: 100% auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.review {
+  width: 100%;
+}
+
+#comment1 {
+  width: 100%;
+  background-image: url(../images/お客様の声\　1.png);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: right 0;
+}
+#comment2 {
+  width: 100%;
+  background-image: url(../images/お客様の声\　4.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: right 0;
+}
+#comment3 {
+  width: 100%;
+  background-image: url(../images/お客様の声\　3.png);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: right 0;
+}
+#comment4 {
+  width: 100%;
+  background-image: url(../images/お客様の声\　2.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: right 0;
+}
+
+.comment .text {
+  width: 750px;
+}
+.comment2 .text {
+  width: 820px;
+}
+
+h4 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.text p {
+  margin-top: 0;
+}
+
+.products {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  width: 570px;
+}
+
+.aiueo {
+  text-align: center;
+}
+
+.aiueo img {
+  width: 500px;
+}
+
+.aiueo h4 {
+  margin: 0;
+}
+.aiueo p {
+  margin: 0;
+}
+
+.product_detail p {
+  margin-top: 0;
+}
+
+span {
+  font-size: 12px;
+}
+
+.title span {
+  font-size: 45px;
+}
+
+.question h4 {
+  background-color: rgb(242, 239, 239);
+}
+
+.temp {
+  margin: 200px 0;
+}
+
+.temp div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temp div div {
+  width: 200px;
+}
+
+footer {
+  background-color: rgb(228, 225, 225);
+}
+
+.Co {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.name {
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+.Co_detail p {
+  font-size: 20px;
+}
+
+.Co_sns {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 157, 255);
+  width: 150px;
+  height: 50px;
+  padding-right: 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.twitter div img {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.insta div img {
+  margin-top: 5px;
+}
+
+.twitter_name {
+  font-size: 30px;
+  margin-left: 10px;
+  color: white;
+}
+.insta_name {
+  font-size: 30px;
+  margin-left: 10px;
+  color: white;
+}
